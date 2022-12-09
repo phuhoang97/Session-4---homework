@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+  </head>
+  <style>
+    /* position: static */
+    /* .container {
+      height: 500px;
+      background-color: antiquewhite;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: static;
+      left: 10px;
+    } */
+
+    /* position: relative */
+
+    .container {
+      height: 500px;
+      background-color: antiquewhite;
+      position: absolute;
+    }
+    .box1 {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: absolute;
+    }
+
+    .box2 {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      position: absolute;
+    }
+    .box3 {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      position: absolute;
+    }
+  </style>
+  <!-- position absolute sẽ phụ thuộc vào các position có trong bài -->
+  <body>
+    <!-- Trong position có:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+ -->
+    <!-- position: static -->
+    <div class="container">
+      <div class="box1"></div>
+      <div class="box2"></div>
+      <div class="box3"></div>
+    </div>
+  </body>
+</html>
